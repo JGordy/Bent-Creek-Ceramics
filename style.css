@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F2F1E8;
+  color: #968772;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #FFFFFF;
+  height: 60px;
+}
+
+#header img {
+  width: 40px;
+  padding: 10px;
+  float: left;
+  align-self: flex-start;
+}
+
+nav {
+  color: #2B2F26;
+  display: flex;
+  /*justify-content: flex-start;*/
+  text-transform: uppercase;
+  align-items: center;
+  height: 60px;
+}
+
+nav a {
+  margin: 0px 30px;
+  color: #2B2F26;
+}
+
+nav a:hover {
+  color: #CD5D67;
+}
+
+nav a.active-link {
+  color: #968772;
+}
+
+h1 {
+  color: #131511;
+  text-align: center;
+  margin: 30px 0px 10px 0px;
+  font-size: 60px;
+}
+
+h2 {
+  color: #131511;
+  text-align: center;
+  margin: 10px 0px 30px 0px;
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+#main {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 1300px;
+  margin: 20px;
+  height: 600px;
+}
+
+#main li {
+  min-height: 200px;
+  /*min-width: 100px;*/
+  width 25%;
+  list-style: none;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  margin: 5px;
+  background-size: cover;
+}
+
+li a {
+  background-color: #2b2f26;
+  color: #F2F1E8;
+  padding: 10px 0px 10px 10px;
+  width: 40%;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#product1 {
+  background-image: url(/Users/josephgordy/tiy/week1/week-one-project/images/product-1.jpg);
+  background-size: cover;
+  flex: 3 0 40%;
+  height: 67%;
+}
+#product2 {
+  background-image: url(/Users/josephgordy/tiy/week1/week-one-project/images/product-2.jpg);
+  flex: 1 0 20%;
+}
+#product3 {
+  background-image: url(/Users/josephgordy/tiy/week1/week-one-project/images/product-3.jpg);
+  flex: 1 0 20%;
+}
+
+#product4 {
+  background-image: url(/Users/josephgordy/tiy/week1/week-one-project/images/product-4.jpg);
+  flex: 1 0 20%;
+  height: 33%;
+}
+
+#product5 {
+background-image: url(/Users/josephgordy/tiy/week1/week-one-project/images/product-5.jpg);
+flex: 1 0 20%;
+height: 33%;
+}
+
+#product6 {
+background-image: url(/Users/josephgordy/tiy/week1/week-one-project/images/product-6.jpg);
+flex: 2 0 30%;
+height: 33%;
+}
+
+#product7 {
+  background-image: url(/Users/josephgordy/tiy/week1/week-one-project/images/product-7.jpg);
+  flex: 1 0 20%;
+  height: 33%;
+}
+
+footer {
+background-color: #2b2f26;
+color: white;
+padding: 40px 30px;
+}
