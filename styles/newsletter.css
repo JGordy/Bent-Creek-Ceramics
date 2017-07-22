@@ -16,13 +16,12 @@ body {
   height: 60px;
   position: fixed;
   width: 100%;
+  box-shadow: 0 0 15px;
 }
 
 #header img {
   width: 40px;
   padding: 10px;
-  float: left;
-  align-self: flex-start;
 }
 
 nav {
@@ -38,10 +37,19 @@ nav a {
   color: #2B2F26;
   font-family: Roboto, sans-serif;
   font-size: 18px;
+  padding: 18px 10px;
 }
 
 nav a:hover {
   color: #CD5D67;
+  background-color: inherit;
+  transition: background-color 0.5s ease;
+}
+
+nav a:focus {
+  background-color: #F2EADB;
+  color: #968772;
+  padding: 18px 10px;
 }
 
 nav a.active-link {
