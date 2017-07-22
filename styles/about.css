@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F2F1E8;
+  color: black;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #FFFFFF;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 0 15px;
+}
+
+#header img {
+  width: 40px;
+  padding: 10px;
+  /*float: left;*/
+  align-self: flex-start;
+}
+
+nav {
+  color: #2B2F26;
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+  height: 60px;
+}
+
+nav a {
+  margin: 0px 30px;
+  color: #2B2F26;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #CD5D67;
+}
+
+nav a.active-link {
+  color: #968772;
+}
+
+section {
+  padding-top: 100px;
+  max-width: 65%;
+  margin: 0px auto;
+  line-height: 2em;
+}
+
+h1 {
+  font-size: 58px;
+  color: black;
+  text-align: center;
+  font-family: merriweather;
+  margin: 40px 0px 60px 0px;
+}
+
+#birdhouse {
+  float: left;
+  width: 20%;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+p > a {
+  color: #968772;
+  text-decoration: underline;
+}
+blockquote {
+  clear: both;
+  margin: 30px 0px;
+  padding-left: 20px;
+  border-left: 2px solid #968772;
+  font-style: italic;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 32px;
+  margin: 20px 0px;
+}
+#wrapper_image {
+  background-image: url(../images/background-3.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#Room {
+  color: white;
+  font-family: merriweather;
+}
+
+#facilities {
+padding-top: 20px;
+}
+
+#figure {
+  float: right;
+  width: 150px;
+  margin-left: 40px;
+}
+
+#figure img {
+  width: 100%;
+  padding: 15px 0px;
+}
+
+figcaption {
+font-size: 16px;
+line-height: 1.2em;
+}
+
+#monthly {
+  clear: both;
+  padding-top: 30px;
+}
+
+table {
+  width: 80%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#table-head {
+  text-align: center;
+}
+
+.even {
+  background-color: #F2EADB;
+}
+footer {
+background-color: #2b2f26;
+color: white;
+padding: 40px 30px;
+margin-top: 40px;
+}
